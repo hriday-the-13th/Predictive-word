@@ -14,13 +14,18 @@ suppressWarnings(library(markdown))
 # Predict Next Word application UI defined 
 
 # Navigation Bar - Title, Author, Date
-shinyUI(navbarPage("Capstone: Course Final Project",
+shinyUI(navbarPage("Predictive Text Application",
                    tabPanel("Predict the Next Word",
                             HTML("<strong>Author: HRIDAY PATGIRI </strong>"),
                             br(),
-                            HTML("<em>Date: 06/06/2020</em>"),
+                            HTML("<strong>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: NUPUR PRASAD </strong>"),
                             br(),
-                            img(src = "Coursera.png"),
+                            HTML("<em>Date: 21/02/2020</em>"),
+                            br(),
+                            img(src = "cu-logo.jpg"),
+                            br(),
+                            HTML("<strong>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspCOTTON UNIVERSITY</strong>"),
+                            
                   #title for left side of page
                             titlePanel("User Interface"),
                   # Sidebar for user to enter part of a sentence 
@@ -58,9 +63,12 @@ shinyUI(navbarPage("Capstone: Course Final Project",
                    ),
                    tabPanel("About",
                             mainPanel(
-                            img(src = "Coursera.png"),
+                            img(src = "cu-logo.jpg"),
+                            br(),
+                            HTML("<strong>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspCOTTON UNIVERSITY</strong>"),
                             br(),
                             img(src = "Swiftkey.png"),
+                            br(),
                             img(src = "R_Studio.jpg",  height = 70, width = 210),
                             br(),
                             includeMarkdown("about.md")

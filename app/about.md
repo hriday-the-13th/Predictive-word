@@ -17,6 +17,3 @@ with and to provide a user interface to predict the next word in the sentence th
 2. The user entry will be displayed on the Predicted Next Word section
 3. In addition, the type of n-gram algorithm (e.g. 3-gram) used in the prediction is displayed
 
-#### Documentation:
-1. Presentation slide deck: Available on the [RPubs page](https://rpubs.com/hriday_the_13th/625261)
-2. Source code for ui.R and server.R files: Available on the [GitHub repo](https://github.com/hriday-the-13th/Predictive-word)
