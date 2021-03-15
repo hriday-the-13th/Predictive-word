@@ -1,7 +1,7 @@
-Data Science Capstone Project
+Predictive Text Application
 ========================================================
-author: HRIDAY PATGIRI
-date: 06/06/2020
+author: HRIDAY PATGIRI, NUPUR PRASAD
+date: 21/02/2020
 autosize: true
 
 Word Prediction App Description
