@@ -1,12 +1,12 @@
 ---
 title: "Next Word Prediction: About Page"
-author: "Diane Wenke"
-date: "May 6, 2018"
+author: "Hriday Patgiri, Nupur Prasad"
+date: "February 21, 2021"
 output: html_document
 ---
 
-This application was developed for the **Coursera Data Science Capstone Final Project**. The goal of the project was to create a product to highight a prediction algorithm built
-with and to provide a user interface to predict the next word in the sentence the user is typing usiing the technology of Swiftkey.
+This application was developed for the **5th semester Final Project**. The goal of the project was to create a product to highight a prediction algorithm built
+with and to provide a user interface to predict the next word in the sentence the user is typing using the technology of Swiftkey.
 
 ### Application Open / User Interface
 1. When the application is initially opened, the User Entry box will be blank and the Predicted Next Word box will display **"NULL"** 
