@@ -12,7 +12,6 @@
 #install.packages("stringr")
 #install.packages("shiny")
 
-### Data Science Capstone : Course Project
 ### server.R file for the Shiny app
 
 suppressWarnings(library(tm))
